@@ -1,13 +1,15 @@
+import { Container } from '@mui/material';
 import React from 'react';
+import Header from './component/Header';
 
 
 function App() {
 
 
   return (
-    <div>
-
-    </div>
+    <Container >
+      <Header/>
+    </Container>
   )
 }
 
